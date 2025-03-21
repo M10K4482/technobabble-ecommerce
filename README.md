@@ -1,6 +1,6 @@
 🛒 Technobabble E-Commerce Website
 
-Welcome to the Technobabble E-Commerce Website! This project is a feature-rich e-commerce application built using the MERN stack, complete with an intuitive user-facing store and an all-encompassing admin dashboard.
+Welcome to the Technobabble E-Commerce Website! This project is a feature-rich e-commerce application built using React, MongoDB, Express.js, Node.js and more. Complete with an intuitive user-facing store and an all-encompassing admin dashboard.
 ✨ Features
 🌟 User Frontend:
 
@@ -37,45 +37,49 @@ Make sure you have the following installed on your machine:
     Node.js
     NPM (Node Package Manager)
 
-Cloning the Repository
+
+Cloning the Repository:
 
 git clone https://github.com/M10K4482/technobabble-ecommerce.git
 
 
 Install the project dependencies using npm:
 
-npm install
+"npm install"
 
 Do this in the backend, frontend and admin folders.
 
+
 Change The Environment Variables In:
 
-/backend/.env
+"/backend/.env"
 
-With Your Own for MongoDB, Cloudinary, Stripe and Json Web Token.
+You have to add your own for MongoDB, Cloudinary, Stripe and Json Web Token so you need to create your own accounts for MongoDD, Cloudinary and Stripe at their respective websites.
 
-Running the Project
 
-Admin Dashboard Running On:
+Running the Project:
 
-cd admin
+Start the backend side first:
 
-npm run dev
+"cd backend"
 
-Backend Running On:
+"npm run server"
 
-cd backend
 
-npm run server
+Then you can start admin:
 
-Frontend Running On:
+"cd admin"
 
-cd frontend
+"npm run dev"
 
-npm run dev
+
+And then frontend:
+
+"cd frontend"
+
+"npm run dev"
+
 
 Open http://localhost:5174 in your browser to view the admin dashboard.
-
-Open http://localhost:400 in your browser to run the backend.
 
 Open http://localhost:5173 in your browser to view the frontend project.
