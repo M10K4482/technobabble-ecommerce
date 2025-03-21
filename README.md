@@ -2,7 +2,7 @@
 
 Welcome to the Technobabble E-Commerce Website! This project is a feature-rich e-commerce application built using React, MongoDB, Express.js, Node.js and more. Complete with an intuitive user-facing store and an all-encompassing admin dashboard.
 
-✨ Features
+
 🌟 User Frontend:
 
     Secure Authentication: Register, login, and manage user profiles effortlessly.
